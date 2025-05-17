@@ -13,7 +13,7 @@ class Solution485Test {
     @MethodSource("arrayProvider")
     fun `examples max consecutive ones in array`(nums: IntArray, expected: Int) {
         val result = solution485.findMaxConsecutiveOnes(nums)
-        assertEquals(result, expected)
+        assertEquals(expected, result)
     }
 
     companion object {
