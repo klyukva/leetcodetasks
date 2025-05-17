@@ -11,15 +11,14 @@ class Solution605 {
                 break
             }
             when {
-                (
-                        current - 1 == -1 || flowerbed[current - 1] == 0)
+                (current - 1 == -1 || flowerbed[current - 1] == 0)
                         && flowerbed[current] == 0
-                        && (current + 1 == size || flowerbed[current + 1] == 0
-                ) -> {
+                        && (current + 1 == size || flowerbed[current + 1] == 0) -> {
                     varN--
                     flowerbed[current] = 1
                     current += 2
                 }
+
                 flowerbed[current] == 0 -> current += 1
                 else -> current += 2
             }
