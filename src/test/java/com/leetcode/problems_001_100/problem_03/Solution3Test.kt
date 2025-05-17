@@ -21,11 +21,11 @@ class Solution3Test {
         @JvmStatic
         private fun arrayProvider() =
             listOf(
-//                Arguments.of("abcabcbb", 3),
-//                Arguments.of("bbbbb", 1),
-//                Arguments.of("pwwkew", 3),
+                Arguments.of("abcabcbb", 3),
+                Arguments.of("bbbbb", 1),
+                Arguments.of("pwwkew", 3),
                 Arguments.of("abcbad", 4),
-//                Arguments.of("", 0),
+                Arguments.of("", 0),
             )
     }
 }
