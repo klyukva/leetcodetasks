@@ -5,14 +5,14 @@ class Solution3 {
     fun lengthOfLongestSubstring(s: String): Int {
         var maxLength = 0
         var start = 0
-        val seenChars = IntArray(128) { -1 } // ASCII size
+        val seenCharLastIndexes = IntArray(128) { -1 } // ASCII size
 
         for (end in s.indices) {
-            val index = s[end].code
-            if (seenChars[index] >= start) {
-                start = seenChars[index] + 1
+            val charCode = s[end].code
+            if (seenCharLastIndexes[charCode] >= start) {
+                start = seenCharLastIndexes[charCode] + 1
             }
-            seenChars[index] = end
+            seenCharLastIndexes[charCode] = end
             maxLength = maxOf(maxLength, end - start + 1)
         }
 
