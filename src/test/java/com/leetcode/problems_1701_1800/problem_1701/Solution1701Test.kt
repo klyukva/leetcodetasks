@@ -20,8 +20,8 @@ class Solution1701Test {
         @JvmStatic
         private fun arrayProvider() =
             listOf(
-                Arguments.of(arrayOf(intArrayOf(1,2), intArrayOf(2,5), intArrayOf(4,3)), 5.0),
-                Arguments.of(arrayOf(intArrayOf(5,2), intArrayOf(5,4), intArrayOf(10,3), intArrayOf(20,1)), 3.25),
+                Arguments.of(arrayOf(intArrayOf(1, 2), intArrayOf(2, 5), intArrayOf(4, 3)), 5.0),
+                Arguments.of(arrayOf(intArrayOf(5, 2), intArrayOf(5, 4), intArrayOf(10, 3), intArrayOf(20, 1)), 3.25),
             )
     }
 }
