@@ -1,4 +1,4 @@
-package com.leetcode.problems_001_100.problem74
+package com.leetcode.problems_001_100.problem_74
 
 class Solution74 {
     fun searchMatrix(matrix: Array<IntArray>, target: Int): Boolean {

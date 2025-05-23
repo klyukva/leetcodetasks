@@ -1,4 +1,4 @@
-package com.leetcode.problems_001_100.problem74
+package com.leetcode.problems_001_100.problem_74
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.params.ParameterizedTest
