@@ -20,8 +20,8 @@ class Solution1248Test {
         @JvmStatic
         private fun arrayProvider() =
             listOf(
-//                Arguments.of(intArrayOf(1, 1, 2, 1, 1), 3, 2),
-//                Arguments.of(intArrayOf(2, 4, 6), 1, 0),
+                Arguments.of(intArrayOf(1, 1, 2, 1, 1), 3, 2),
+                Arguments.of(intArrayOf(2, 4, 6), 1, 0),
                 Arguments.of(intArrayOf(2, 2, 2, 1, 2, 2, 1, 2, 2, 2), 2, 16),
             )
     }
