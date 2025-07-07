@@ -14,7 +14,7 @@ class Solution49Test {
     fun `examples group anagrams`(strs: Array<String>, expected: List<List<String>>) {
         val result = solution49.groupAnagrams(strs)
         assertThat(
-            normalizeNestedList(normalizeNestedList(result)),
+            normalizeNestedList(result),
             containsInAnyOrder(*expected.toTypedArray())
         )
     }
